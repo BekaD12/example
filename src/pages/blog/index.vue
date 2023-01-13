@@ -14,10 +14,12 @@
                         </div>
 
                         <div class="prestations-block">
+                            <router-link to="/blog/post">
                             <img src="/img/feature/feature-2.jpg" />
                             <div class="prestations-text">
                                 <span>Sample</span>
                             </div>
+                            </router-link>
                         </div>
                     </div>
 
