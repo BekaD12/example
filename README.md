@@ -15,12 +15,6 @@
 
 Vitesse is a starter template to create an app more easily, feel free to check antfu's awesome work - [vitesse](https://github.com/antfu/vitesse) - Vitesse
 
-## Install
-
-```sh
-pnpm install
-```
-
 ## Try it now!
 
 > Vitesse requires Node >=14.18
@@ -40,6 +34,12 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
 ## Usage
+
+### Install
+
+```sh
+pnpm install
+```
 
 ### Development
 

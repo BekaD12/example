@@ -2,8 +2,7 @@
         <div class="grow">
             <div class="contact-container">
                 <div class="contact-content">
-                    <h2>N’hésitez pas a nous contacter <br />
-                        si vous avez la moindre question 👋</h2>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit 👋</h2>
 
                     <div class="contact-info">
                         <div class="contact-block">
