@@ -51,7 +51,7 @@ html.dark .banner {
 .btn {
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 1.2rem 2.6rem;
+    padding: 1rem 3rem;
 }
 
 html.dark .btn {
@@ -91,7 +91,7 @@ li {
 }
 
 li::before {
-    color: #dabcad;
+    color: #000;
     content: "•";
     display: inline-block;
     font-size: 3rem;
@@ -141,6 +141,10 @@ html.dark .prestation-indication {
 @media (max-width: 40em) {
     .prestation-hero {
         margin-top: 8rem;
+    }
+
+    .prestation-hero img{
+        height: 25rem; 
     }
 
     h2 {

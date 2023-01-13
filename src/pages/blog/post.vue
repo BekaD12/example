@@ -3,7 +3,7 @@
         <div class="prestation-content">
 
             <div class="prestation-hero">
-                <img src="/img/slider/slide-2.jpg" />
+                <img src="/img/slider/slide-3.jpg" />
                 <h2>Blog post</h2>
                 <div class="prestation-inner">
                     <div class="banner">
