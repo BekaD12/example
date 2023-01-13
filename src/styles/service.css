@@ -1,0 +1,59 @@
+.service-container {
+    margin-top: 6.5rem;
+    padding: 0 9rem;
+}
+
+.service-title h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.service-inner {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.service-block img{
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.service-block:not(:last-child) {
+    margin-right: 5rem;
+}
+
+.service-block span {
+    display: block;
+    text-align: center;
+}
+
+.service-block span.service {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.service-block span.price {
+    color: #878787;
+    font-size: 1.8rem;
+    font-weight: 6 00;
+    margin-top: 1rem;
+}
+
+@media (max-width: 40em) {
+    .service-container {
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+
+    .service-inner {
+        flex-direction: column;
+    }
+
+    .service-block:not(:last-child) {
+        margin-right: 0;
+    }
+}

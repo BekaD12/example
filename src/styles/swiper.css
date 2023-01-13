@@ -1,0 +1,148 @@
+.slide {
+    background-color: #303030;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slide img {
+    height: 100vh !important;
+    object-fit: cover;
+    user-select: none;
+    width: 100vw !important;
+}
+
+/* pagination */
+.swiper-pagination {
+    bottom: 4.5rem !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    width: auto !important;
+}
+
+.swiper-pagination-bullet {
+    background: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    height: auto;
+    line-height: initial;
+    opacity: .6;
+    text-align: center;
+    width: 6rem;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    opacity: 1;
+}
+
+/* navigation */
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #fff;
+    color: #000;
+    height: 4.8rem;
+    width: 4.8rem;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    font-size: inherit;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.swiper-button-prev:after {
+    content: url("data:image/svg+xml; utf8, %3Csvg width='22' height='16' fill='none' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath d='M.293 7.293a1 1 0 0 0 0 1.414l6.364 6.364a1 1 0 0 0 1.414-1.414L2.414 8l5.657-5.657A1 1 0 0 0 6.657.93L.293 7.293ZM22 7H1v2h21V7Z' fill='%23020202' /%3E%3C/svg%3E");
+}
+
+.swiper-button-next:after {
+    content: url("data:image/svg+xml; utf8, %3Csvg width='22' height='16' fill='none' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath d='M21.707 8.707a1 1 0 0 0 0-1.414L15.343.929a1 1 0 1 0-1.414 1.414L19.586 8l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM21 7H0v2h21V7Z' fill='%23020202' /%3E%3C/svg%3E");
+}
+
+.swiper-button-prev {
+    bottom: 4.5rem;
+    left: unset;
+    right: 13.5rem;
+    top: unset;
+
+}
+
+.swiper-button-next {
+    bottom: 4.5rem;
+    left: unset;
+    right: 9rem;
+    top: unset;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+    opacity: .6;
+}
+
+
+/* EXTREME WIP */
+.swiper-pagination {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bullet-2,
+.bullet-3 {
+    display: none;
+}
+
+.bullet-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bullet-container-4 .bullet-4 {
+    order: 2;
+}
+
+.bullet-container-4 .bullet-line {
+    order: 1;
+}
+
+.bullet-line {
+    background: #fff;
+    color: white;
+    height: .2rem;
+    margin: 0 1.5rem;
+    opacity: .6;
+    vertical-align: super;
+    width: 4rem;
+}
+
+.swiper-pagination-bullet-active+.bullet-line {
+    opacity: 1;
+}
+
+@media (max-width: 40em) {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-pagination {
+        bottom: 8vh !important;
+    }
+
+    .bullet-line {
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 20em) {
+    .bullet-line {
+        margin: 0 1rem;
+    }
+}

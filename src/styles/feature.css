@@ -1,0 +1,135 @@
+.feature-container {
+    margin-top: 6.5rem;
+    padding: 0 9rem;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-block {
+    position: relative;
+    width: calc(50% - 3rem);
+}
+
+.feature-block img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-text {
+    left: 3rem;
+    position: absolute;
+    top: 3rem;
+}
+
+.feature-text span {
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+
+.feature-text span:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.feature-text span:nth-child(1):after {
+    background: #fff;
+    color: #fff;
+    content: "";
+    display: inline-flex;
+    height: .1rem;
+    margin-bottom: 0;
+    margin-left: .5rem;
+    width: 1.5rem;
+}
+
+.feature-text span:nth-child(2) {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.feature-go {
+    bottom: 3rem;
+    position: absolute;
+    right: 6rem;
+    text-align: right;
+    width: 100%;
+}
+
+.feature-go:before {
+    background: #fff;
+    color: #fff;
+    content: "";
+    display: block;
+    height: .1rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.feature-go button {
+    padding: .8rem 2.5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold
+}
+
+.feature-info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-info>* {
+    width: calc(50% - 3rem);
+}
+
+.feature-info h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.feature-info p {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+@media (max-width: 40em) {
+    .feature-container {
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+
+    .feature-content {
+        flex-direction: column;
+    }
+
+    .feature-block {
+        width: 100%;
+    }
+
+    .feature-block:nth-child(2) {
+        margin-top: 2rem;
+    }
+
+    .feature-info {
+        flex-direction: column;
+    }
+
+    .feature-info>* {
+        width: 100%;
+    }
+
+    .feature-go {
+        bottom: 1rem;
+        right: 2rem;
+    }
+
+    .feature-go button {
+        font-size: 1.4rem;
+    }
+}

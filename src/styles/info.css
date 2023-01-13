@@ -1,0 +1,58 @@
+ .info-container {
+     margin-top: 6.5rem;
+     padding: 0 9rem;
+ }
+
+ .info-content h2 {
+     font-size: 3rem;
+     font-weight: bold;
+     margin-bottom: 2rem;
+     text-align: left;
+ }
+
+ .info-inner {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .info-block:not(:last-child) {
+     margin-right: 7.5rem;
+ }
+
+
+ .info-block span {
+     display: block;
+     font-size: 1.7rem;
+     font-weight: 600;
+     text-align: left;
+ }
+
+ .info-block p {
+     color: #696969;
+     font-size: 1.4rem;
+     text-align: left;
+     width: 75%;
+ }
+
+ .dark .info-block p {
+     color: #fffc;
+ }
+
+ @media (max-width: 40em) {
+     .info-inner {
+         flex-direction: column;
+     }
+
+     .info-container {
+         margin-top: 2rem;
+         padding: 0 2rem;
+     }
+
+     .info-block:not(:last-child) {
+         margin-right: 0;
+     }
+
+     .info-block p {
+         width: 100%;
+     }
+ }

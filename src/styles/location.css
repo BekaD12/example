@@ -1,0 +1,57 @@
+.location-container {
+    margin-top: 6.5rem;
+}
+
+.location-content {
+    position: relative;
+}
+
+.location-content img {
+    max-height: 36rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.location-text {
+    left: 8.5rem;
+    position: absolute;
+    top: 40%;
+}
+
+.location-text span {
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+
+.location-text span:nth-child(1) {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.location-text span:nth-child(1):after {
+    background: #fff;
+    color: #fff;
+    content: "";
+    display: inline-flex;
+    height: .1rem;
+    margin-bottom: 0;
+    margin-left: .5rem;
+    width: 1.5rem;
+}
+
+.location-text span:nth-child(2) {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 40em) {
+    .location-container {
+        margin-top: 2rem;
+    }
+
+    .location-text {
+        left: 2rem;
+        top: 20%;
+    }
+}

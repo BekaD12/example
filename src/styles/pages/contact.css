@@ -1,0 +1,81 @@
+
+.contact-container {
+    margin-top: 25rem;
+    padding: 0 9rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15rem;
+}
+
+.contact-info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info .contact-block:before {
+    background: #000;
+    color: #000;
+    content: "";
+    display: block;
+    height: .2rem;
+    margin-bottom: 1.2rem;
+    width: 30rem;
+}
+
+html.dark .contact-info .contact-block:before {
+    background: #fff;
+    color: #fff;
+}
+
+.contact-info span {
+    display: block;
+}
+
+.contact-info span:nth-child(1) {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.contact-info a {
+    text-decoration: underline;
+}
+
+.contact-info a,
+.contact-info span:nth-child(2) {
+    color: #9b9b9b;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+@media (max-width: 40em) {
+    .contact-container {
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+
+    .contact-content {
+        margin-top: 8rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-info .contact-block::before {
+        width: 100%;
+    }
+
+    .contact-block {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+}

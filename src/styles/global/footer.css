@@ -1,0 +1,147 @@
+.footer-container {
+  background-color: #202020;
+  color: #fff;
+  margin-top: 6.5rem;
+  padding: 0 9rem;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  height: 10rem;
+  justify-content: center;
+}
+
+footer {
+  align-items: center;
+  display: grid;
+  font-size: 1.6rem;
+  grid-template-columns: 1fr auto 1fr;
+  width: 100%;
+}
+
+.footer-left {
+  align-items: center;
+  display: flex;
+  grid-column: 1;
+  grid-row: 1;
+  justify-content: flex-start;
+}
+
+.footer-left-inner nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.footer-item:first-child {
+  margin-left: 4rem;
+}
+
+.footer-item {
+  cursor: pointer;
+  font-size: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: .5rem;
+  padding: 2rem;
+}
+
+.footer-middle {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.footer-middle svg {
+  display: block;
+  margin: auto;
+}
+
+.footer-middle span {
+  font-size: 1.2rem;
+}
+
+.footer-right {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+}
+
+.button-socials {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .button-socials>*:last-child {
+  margin-right: 0;
+}
+
+footer .button-socials>* {
+  margin-right: 4rem;
+}
+
+@media (max-width: 40em) {
+  .footer-container {
+    padding: 0 2rem;
+  }
+
+  .footer-content {
+    height: auto;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-left {
+    margin-top: 1rem;
+  }
+
+  .footer-left-inner nav {
+    padding: 1rem 0;
+  }
+
+  .footer-middle {
+    margin: 1rem 0;
+  }
+
+  .footer-middle svg {
+    margin-bottom: 1rem;
+  }
+
+  .footer-middle span {
+    font-size: 1.1rem;
+  }
+
+  .footer-right {
+    margin-bottom: 2rem;
+  }
+
+  .footer-left {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    padding: 1rem;
+  }
+
+  .footer-item:first-child {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 20em) {
+  .footer-item {
+    padding: 0.45rem;
+  }
+    .footer-middle span {
+      font-size: .9rem;
+    }
+}
