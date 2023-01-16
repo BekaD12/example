@@ -21,6 +21,9 @@
 
         <div class="footer-right">
           <div class="button-socials">        
+                <a class="button-social" href="https://benoitk.fr/" target="_blank">
+                  <div i-tabler-world-www />
+                </a>
             <a class="button-social" href="https://github.com/BekaD12" target="_blank">
               <div i-tabler-brand-github />
             </a>
