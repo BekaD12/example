@@ -25,7 +25,7 @@
 
                     <div class="single-block">
                         <router-link to="/blog/post">
-                            <img src="/img/slider/slide-4.jpg" alt="">
+                            <img src="/img/slider/slide-3.jpg" alt="">
                             <div class="prestations-text">
                                 <span>Sample</span>
                             </div>

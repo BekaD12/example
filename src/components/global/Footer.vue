@@ -11,7 +11,7 @@
           <div class="footer-left-inner">
             <nav>
               <router-link class="footer-item home" to="./">Home</router-link>
-              <router-link class="footer-item blog" to="/">Blog</router-link>
+              <router-link class="footer-item blog" to="/blog">Blog</router-link>
               <router-link class="footer-item contact" to="/contact">Contact</router-link>
             </nav>
           </div>
@@ -20,14 +20,11 @@
         <div class="footer-middle"></div>
 
         <div class="footer-right">
-          <div class="button-socials">
-            <a class="button-social" href="/" target="_blank">
-              <div i-tabler-brand-instagram />
-            </a>
-            <a class="button-social" href="/" target="_blank">
+          <div class="button-socials">        
+            <a class="button-social" href="https://github.com/BekaD12" target="_blank">
               <div i-tabler-brand-github />
             </a>
-            <a class="button-social" href="/" target="_blank">
+            <a class="button-social" href="https://www.linkedin.com/in/benoitkourot/" target="_blank">
               <div i-tabler-brand-linkedin />
             </a>
             <button icon-btn @click="toggleDark()">

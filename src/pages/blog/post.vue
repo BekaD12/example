@@ -23,7 +23,7 @@
             <div class="prestation-block">
                 <div class="block">
                     <div class="img-container">
-                        <img src="/img/feature/feature-2.jpg" />
+                        <img src="/img/feature/feature-1.jpg" />
                     </div>
                     <div class="text-container">
                         <h3>Sample</h3>
