@@ -7,7 +7,7 @@
 }
 
 .location-content img {
-    max-height: 36rem;
+    min-height: 20rem;
     object-fit: cover;
     width: 100%;
 }

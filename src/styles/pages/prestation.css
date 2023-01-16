@@ -91,11 +91,10 @@ li {
 }
 
 li::before {
-    color: #000;
+    color: var(--button);
     content: "•";
     display: inline-block;
     font-size: 3rem;
-    height: 2rem;
     line-height: 0;
     vertical-align: bottom;
     width: 2rem;
