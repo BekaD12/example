@@ -13,7 +13,7 @@
 
 ## Vitesse
 
-Vitesse is a starter template to create an app more easily, feel free to check antfu's awesome work - [vitesse](https://github.com/antfu/vitesse) - Vitesse
+Vitesse is a starter template to create an app more easily, feel free to check antfu's awesome work - [Vitesse](https://github.com/antfu/vitesse)
 
 ## Try it now!
 
