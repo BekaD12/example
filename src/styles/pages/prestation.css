@@ -96,7 +96,7 @@ li::before {
     display: inline-block;
     font-size: 3rem;
     line-height: 0;
-    vertical-align: bottom;
+    vertical-align: middle;
     width: 2rem;
 }
 
