@@ -43,28 +43,28 @@ export default {
       <SwiperSlide>
         <div class="swiper-content">
           <div id="slide" class="slide">
-            <img src="/img/slider/slide-4.jpg">
+            <img src="/img/slider/slide-4.jpg" alt="Slide 4">
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div class="swiper-content">
           <div id="slide" class="slide">
-            <img src="/img/slider/slide-2.jpg">
+            <img src="/img/slider/slide-2.jpg" alt="SLide 2">
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div class="swiper-content">
           <div id="slide" class="slide">
-            <img src="/img/slider/slide-3.jpg">
+            <img src="/img/slider/slide-3.jpg" alt="Slide 3">
           </div>
         </div>
       </SwiperSlide>
             <SwiperSlide>
               <div class="swiper-content">
                 <div id="slide" class="slide">
-                  <img src="/img/slider/slide-1.jpg">
+                  <img src="/img/slider/slide-1.jpg" alt="Slide 1">
                 </div>
               </div>
             </SwiperSlide>

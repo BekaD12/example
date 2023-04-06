@@ -2,7 +2,7 @@
     <div class="feature-container">
         <div class="feature-content">
             <div class="feature-block">
-                <img src="/img/feature/feature-1.jpg" />
+                <img src="/img/feature/feature-1.jpg" alt="Feature 1"/>
                 <div class="feature-text">
                     <span>Sample</span>
                     <span>Case</span>
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="feature-block">
-                <img src="/img/feature/feature-2.jpg" />
+                <img src="/img/feature/feature-2.jpg" alt="Feature 2"/>
                 <div class="feature-text">
                     <span>Sample</span>
                     <span>Case</span>

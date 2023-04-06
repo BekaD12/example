@@ -6,7 +6,7 @@
             </div>
             <div class="service-inner">
                 <div class=" service-block" v-for="index in 4" :key="index">
-                    <img src="/img/service/service.png" />
+                    <img src="/img/service/service.png" alt="Service" />
                     <span class="service">Lorem ipsum dolor sit amet</span>
                     <span class="price">Price €</span>
                 </div>

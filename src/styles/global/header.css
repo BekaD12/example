@@ -45,7 +45,7 @@
 }
 
 .header-left * {
-    /* transition: color .3s, fill .3s; */
+    font-weight: bold;
 }
 
 .header-middle {

@@ -28,9 +28,9 @@
               <div i-tabler-brand-github />
             </a>
             <a class="button-social" href="https://www.linkedin.com/in/benoitkourot/" target="_blank">
-              <div i-tabler-brand-linkedin />
+              <div i-tabler-brand-linkedin aria-label="linkedin" />
             </a>
-            <button icon-btn @click="toggleDark()">
+            <button icon-btn @click="toggleDark()" title="Toggle dark mode">
               <div dark:i-tabler-moon i-tabler-sun />
             </button>
           </div>

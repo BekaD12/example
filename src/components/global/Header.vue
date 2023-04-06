@@ -30,9 +30,9 @@ onUnmounted(() => {
         <header id="header-content" class="header-content">
             <nav class="header" :class="{ 'menu-active': isActive }">
                 <div class=" header-left">
-                    <router-link class="navbar-logo" to="/" aria-label="Example.">
+                    <router-link class="navbar-logo" to="./" aria-label="Example.">
                         <div class="logo">
-                          <span>Example.</span>
+                          <h1>Example.</h1>
                         </div>
                     </router-link>
                 </div>
