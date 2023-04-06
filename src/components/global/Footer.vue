@@ -21,14 +21,14 @@
 
         <div class="footer-right">
           <div class="button-socials">        
-                <a class="button-social" href="https://benoitk.fr/" target="_blank">
+                <a class="button-social" href="https://benoitk.fr/" target="_blank" aria-label="Site personnel">
                   <div i-tabler-world-www />
                 </a>
-            <a class="button-social" href="https://github.com/BekaD12" target="_blank">
+            <a class="button-social" href="https://github.com/BekaD12" target="_blank" aria-label="Profil github">
               <div i-tabler-brand-github />
             </a>
-            <a class="button-social" href="https://www.linkedin.com/in/benoitkourot/" target="_blank">
-              <div i-tabler-brand-linkedin aria-label="linkedin" />
+            <a class="button-social" href="https://www.linkedin.com/in/benoitkourot/" target="_blank" aria-label="Profil linkedin">
+              <div i-tabler-brand-linkedin />
             </a>
             <button icon-btn @click="toggleDark()" title="Toggle dark mode">
               <div dark:i-tabler-moon i-tabler-sun />
