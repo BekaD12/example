@@ -11,5 +11,5 @@
   "files.associations": {
     "*.css": "css"
   },
-  "editor.formatOnSave": false
+  "editor.formatOnSave": true
 }

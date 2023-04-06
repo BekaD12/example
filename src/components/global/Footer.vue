@@ -1,3 +1,10 @@
+<script setup>
+
+const router = useRouter()
+const currentPath = router.currentRoute.value.name
+console.log(currentPath);
+</script>
+
 <template>
   <div class="footer-container">
     <div class="footer-content">
@@ -10,9 +17,9 @@
           </div>
           <div class="footer-left-inner">
             <nav>
-              <router-link class="footer-item home" to="./">Home</router-link>
-              <router-link class="footer-item blog" to="/blog">Blog</router-link>
-              <router-link class="footer-item contact" to="/contact">Contact</router-link>
+              <router-link class="footer-item home" to="./" v-if="!(currentPath == 'index')">Home</router-link>
+              <router-link class="footer-item blog" to="/blog" v-if="!(currentPath == 'blog')">Blog</router-link>
+              <router-link class="footer-item contact" to="/contact" v-if="!(currentPath == 'contact')">Contact</router-link>
             </nav>
           </div>
         </div>

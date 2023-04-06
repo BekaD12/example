@@ -1,6 +1,4 @@
 <script setup>
-import { onMounted, onUnmounted, ref } from 'vue'
-import { useRouter } from 'vue-router'
 const router = useRouter()
 const currentPath = router.currentRoute.value.name
 const isActive = ref(false)
@@ -30,11 +28,9 @@ onUnmounted(() => {
         <header id="header-content" class="header-content">
             <nav class="header" :class="{ 'menu-active': isActive }">
                 <div class=" header-left">
-                    <router-link class="navbar-logo" to="./" aria-label="Example.">
                         <div class="logo">
                           <h1>Example.</h1>
                         </div>
-                    </router-link>
                 </div>
                 <div class="header-middle menu">
                     <div class="menu-inner">

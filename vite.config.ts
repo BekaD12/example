@@ -140,9 +140,9 @@ export default defineConfig({
     Inspect(),
 
     // https://github.com/webfansplz/vite-plugin-vue-inspector
-    Inspector({
-      toggleButtonVisibility: 'never',
-    }),
+    // Inspector({
+    //   toggleButtonVisibility: 'never',
+    // }),
   ],
 
   // https://github.com/vitest-dev/vitest
