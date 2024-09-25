@@ -38,12 +38,6 @@ const currentPath = router.currentRoute.value.name
             <a class="button-social" href="https://github.com/BekaD12" target="_blank" aria-label="Profil github">
               <div i-tabler-brand-github />
             </a>
-            <a
-              class="button-social" href="https://www.linkedin.com/in/benoitkourot/" target="_blank"
-              aria-label="Profil linkedin"
-            >
-              <div i-tabler-brand-linkedin />
-            </a>
             <button icon-btn title="Toggle dark mode" @click="toggleDark()">
               <div dark:i-tabler-moon i-tabler-sun />
             </button>
